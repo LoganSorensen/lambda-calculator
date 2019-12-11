@@ -19,4 +19,39 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+.App {
+    margin-top: 5%;
+}
+
+button {
+    color: white;
+    border: none;
+    width: 18%;
+    height: 6rem;
+    font-size: 2rem;
+    border-radius: 50px;
+    margin: 2% 0 2% 4.5%;
+    box-shadow: 1px 7px 2px maroon;
+    cursor: pointer;
+}
+
+.numberBtn {
+    background-color: midnightblue;
+}
+
+.operatorBtn {
+    background-color: mediumturquoise;
+    /* display: flex; */
+    display: inline;
+}
+
+.specialBtn {
+    background-color: steelblue; 
+    display: inline;
+}
+
+.display {
+    margin-left: 4.5%;
+}
