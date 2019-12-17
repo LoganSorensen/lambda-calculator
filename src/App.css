@@ -19,4 +19,93 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+.App {
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.appDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    color: white;
+    border: none;
+    width: 6rem;
+    height: 6rem;
+    font-size: 2rem;
+    border-radius: 50px;
+    margin: 2.5% 5% 2% 4.5%;
+    box-shadow: 1px 7px 4px maroon;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button:active {
+    box-shadow: 1px 5px 1px maroon;
+    transform: translateY(2px);
+}
+
+button:focus {
+    outline: 0;
+}
+
+.numberBtn {
+    background-color: midnightblue;
+}
+
+.numberBtn:hover {
+    color: midnightblue;
+}
+
+.numbersDiv {
+    width: 410px;
+    position: absolute;
+    top: 350px;
+}
+
+.numbersDiv :nth-Child(10) {
+    width: 14.4rem;
+}
+
+.specialDiv {
+    width: 75%;
+    height: 7%;
+}
+
+.operatorBtn {
+    background-color: mediumturquoise;
+    margin: 9.9%;
+}
+
+.operatorBtn:hover {
+    color: mediumturquoise;
+}
+
+.operatorCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.specialBtn {
+    background-color: steelblue;
+}
+
+.specialBtn:hover {
+    color: steelblue;
+}
+
+.display {
+    margin-left: 4.5%;
+}
+
+.logo {
+    margin-left: 4.5%;
+    margin-top: 4.5%;
+}
